@@ -2,13 +2,40 @@
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 // Collect employee data
-const collectEmployees = function() {
+const  collectEmployees = function() {
   // TODO: Get user input to create and return an array of employee objects
+  // store user data in object
+  // add user to array of employees
+  
+  let isRunning = true
+  
+  let employees = []
+  
+  while (isRunning) {
+    let userFirstName = prompt("Enter First Name")
+    let userLastName = prompt("Enter Last Name")
+    let userSalary = prompt("Enter Salary")
+
+    let employee = {
+      firstName: userFirstName,
+      lastName: userLastName,
+      salary: userSalary,
+    }
+    employees.push(employee)
+    isRunning = confirm("Add another employee?")
+  }
+return employees
 }
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
+  let totalSalary = 0
+for (let i = 0; i < employeesArray.length; i++) {
+  
+}
+  return totalSalary / employeesArray.length
+  
 }
 
 // Select a random employee
