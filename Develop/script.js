@@ -14,7 +14,7 @@ const  collectEmployees = function() {
   while (isRunning) {
     let userFirstName = prompt("Enter First Name")
     let userLastName = prompt("Enter Last Name")
-    let userSalary = prompt("Enter Salary")
+    let userSalary = Number(prompt("Enter Salary"))
 
     let employee = {
       firstName: userFirstName,
@@ -31,16 +31,30 @@ return employees
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
   let totalSalary = 0
-for (let i = 0; i < employeesArray.length; i++) {
   
+for (let i = 0; i < employeesArray.length; i++) {
+  let employee = employeesArray[i]
+  totalSalary = totalSalary + employee.salary
 }
-  return totalSalary / employeesArray.length
+  let averageSalary = totalSalary / employeesArray.length
+  console.log(`Average Salary: ${averageSalary}`)
+  return averageSalary
   
 }
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
+  // generate random index
+  // get employee by index
+  // console log and return random employee
+
+  let randomIndex = Math.floor(Math.random() * employeesArray.length)
+  let randomEmployee = employeesArray[randomIndex]
+
+  console.log(`Random Employee: ${JSON.stringify(randomEmployee)}`)
+  return randomEmployee
+
 }
 
 /*
