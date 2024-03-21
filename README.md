@@ -13,7 +13,7 @@ This employee payroll tracker allows users to enter any number of employees into
 
 ## Link 
 
-Portfolio can be located [here](https://mmhilbert.github.io/module-3-challenge/)
+Portfolio can be located [here](https://mmhilbert.github.io/module-3-challenge/index.html)
 
 
 ## License
