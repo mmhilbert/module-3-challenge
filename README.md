@@ -5,11 +5,11 @@ This employee payroll tracker allows users to enter any number of employees into
 
 #### Preview of this web application with employee information added:
 
-![module 3 challenge screenshot](./Develop/img/Screenshot%202024-03-21%20at%204.33.43 PM.png)
+![module 3 challenge screenshot](./img/Screenshot%202024-03-21%20at%204.33.43 PM.png)
 
 #### Preview of this web application with the console open containing aggregated data:
 
-![module 3 challenge screenshot with open console](./Develop/img/Screenshot%202024-03-21%20at%204.34.20 PM.png)
+![module 3 challenge screenshot with open console](./img/Screenshot%202024-03-21%20at%204.34.20 PM.png)
 
 ## Link 
 
